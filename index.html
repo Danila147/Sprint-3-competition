@@ -9,31 +9,107 @@
 </head>
 
 <body class="page">
+
   <div class="container">
+
     <header class="header">
-
+      <nav>
+        <ul>
+          <li><a href="#road">Покрытия и градиенты</a></li>
+          <li><a href="#bicycles">Велосипеды</a></li>
+          <li><a href="#trainings">Тренировки</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
+
+    <main class="content">
+
       <section class="intro">
-
+        <h1 class="intro__title">Шоссе, ТТ
+          и Грэвел</h1>
+        <img class="intro__image" src="" alt="">
+        <p class="intro__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно
+          только определиться с выбором велосипеда и отправиться в путь.</p>
+        <button class="intro__button">Подробнее</button>
+        <a class="intro__link" href="">Cannondale Systemsix</a>
       </section>
+
       <section class="quote">
-
+        <img class="quote__image" src="" alt="">
+        <blockquote class="quote__box">
+          <p class="quote__text">&laquo;Катайся много или мало, долго или коротко, как хочешь - но катайся&raquo;</p>
+          <p class="quote__author">Эдди Меркс</p>
+          <p class="quote__author-subline">Велогонщик</p>
+        </blockquote>
       </section>
-      <section class="road">
 
+      <section class="road" id="road">
+        <h2 class="road__title">Шоссе</h2>
+        <p class="road__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
+          равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="road__gallery">
+          <img src="" alt="" class="road__image">
+          <img src="" alt="" class="road__image">
+        </div>
+        <div class="road__switchers">
+          <div class="road__switcher"></div>
+          <div class="road__switcher"></div>
+        </div>
       </section>
-      <section class="bicycles">
 
+      <section class="bicycles" id="bicycles">
+        <h2 class="bicycles__title">Велосипеды</h2>
+        <ul class="bicycles__types-list">
+          <li class="bicycles__types-item">Шоссе</li>
+          <li class="bicycles__types-item">Грэвел</li>
+          <li class="bicycles__types-item">TT</li>
+        </ul>
+        <div class="bicycles__cards">
+          <div class="bicycles__card">
+            <img class="bicycles__image" src="" alt="">
+            <a class="bicycles__name link"
+              href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN ">Cervelo
+              Caledonia-5</a>
+          </div>
+          <div class="bicycles__card">
+            <img class="bicycles__image" src="" alt="">
+            <a class="bicycles__name link"
+              href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">Cannondale
+              Systemsix Himod</a>
+          </div>
+          <div class="bicycles__card">
+            <img class="bicycles__image" src="" alt="">
+            <a class="bicycles__name link"
+              href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">Trek
+              Domane SL-7</a>
+          </div>
+        </div>
       </section>
-      <section class="trainings">
 
+      <section class="trainings" id="trainings">
+        <h2 class="trainings__title">Тренировки</h2>
+        <img src="" alt="" class="trainings__image">
+        <p class="trainings__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
+          эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+        <ul class="trainings__list">
+          <li><a class="trainings__link link" href="https://www.strava.com">Strava</a></li>
+          <li><a class="trainings__link link" href="https://www.komoot.com">Komoot</a></li>
+        </ul>
       </section>
+
     </main>
-    <footer class="footer">
 
+    <footer class="footer">
+      <h3 class="footer__title">Подпишитесь на рассылку &mdash;</h3>
+      <form>
+        <!-- label ? нужно вспомнить как там формы делались в теории-->
+        <input type="email" class="footer__email">
+      </form>
+      <p class="footer__copyright">&copy; Road Club 2021</p>
     </footer>
+
   </div>
+
 </body>
 
 </html>
