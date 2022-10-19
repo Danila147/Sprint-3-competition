@@ -1,7 +1,8 @@
-.intro {
+.card {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #151515;
   display: flex;
   flex-direction: column;
-  min-height: 856px;
+  gap: 50px;
+  max-width: 460px;
 }

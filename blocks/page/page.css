@@ -1,6 +1,7 @@
 .page {
   margin: 0 auto;
   max-width: 1440px;
+  width: 100%;
   background-color: #F4F4F4;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

@@ -10,32 +10,46 @@
 
 <body class="page">
 
-  <div class="container">
+  <header class="header header_position_sticky">
+    <nav>
+      <ul class="header__links">
+        <li>
+          <a href="#road" class="header__link">
+            Покрытия и градиенты
+          </a>
+        </li>
+        <li>
+          <a href="#bicycles" class="header__link">
+            Велосипеды
+          </a>
+        </li>
+        <li>
+          <a href="#trainings" class="header__link">
+            Тренировки
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <header class="header">
-      <nav>
-        <ul>
-          <li><a href="#road">Покрытия и градиенты</a></li>
-          <li><a href="#bicycles">Велосипеды</a></li>
-          <li><a href="#trainings">Тренировки</a></li>
-        </ul>
-      </nav>
-    </header>
+  <div class="container">
 
     <main class="content">
 
       <section class="intro">
-        <h1 class="intro__title">Шоссе, ТТ
-          и Грэвел</h1>
-        <img class="intro__image" src="" alt="">
-        <p class="intro__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно
-          только определиться с выбором велосипеда и отправиться в путь.</p>
+        <article class="card">
+          <h1 class="card__title">Шоссе, ТТ
+            и&nbspГрэвел</h1>
+          <p class="card__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно
+            только определиться с выбором велосипеда и отправиться в путь.</p>
+        </article>
+        <img class="intro__image" src="./images/intro-forest-road.jpg" alt="лесная дорога">
         <button class="intro__button">Подробнее</button>
         <a class="intro__link" href="">Cannondale Systemsix</a>
       </section>
 
       <section class="quote">
-        <img class="quote__image" src="" alt="">
+        <img class="quote__image" src="./images/quote-north-road.jpg" alt="северная дорога">
         <blockquote class="quote__box">
           <p class="quote__text">&laquo;Катайся много или мало, долго или коротко, как хочешь - но катайся&raquo;</p>
           <p class="quote__author">Эдди Меркс</p>
@@ -44,12 +58,17 @@
       </section>
 
       <section class="road" id="road">
+        <article class="card">
+          <h2 class="card__title">Шоссе</h2>
+          <p class="card__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
+            равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        </article>
         <h2 class="road__title">Шоссе</h2>
         <p class="road__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
           равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         <div class="road__gallery">
-          <img src="" alt="" class="road__image">
-          <img src="" alt="" class="road__image">
+          <img src="./images/road-mountain-road.jpg" alt="горная дорога" class="road__image">
+          <img src="./images/road-off-road.jpg" alt="бездорожье" class="road__image">
         </div>
         <div class="road__switchers">
           <div class="road__switcher"></div>
@@ -66,19 +85,19 @@
         </ul>
         <div class="bicycles__cards">
           <div class="bicycles__card">
-            <img class="bicycles__image" src="" alt="">
+            <img class="bicycles__image" src="./images/bicycles-Cervelo-Caledonia-5.jpg" alt="велосипед">
             <a class="bicycles__name link"
               href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN ">Cervelo
               Caledonia-5</a>
           </div>
           <div class="bicycles__card">
-            <img class="bicycles__image" src="" alt="">
+            <img class="bicycles__image" src="./images/bicycles-Cannondale-Systemsix-Himod.jpg" alt="велосипед">
             <a class="bicycles__name link"
               href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">Cannondale
               Systemsix Himod</a>
           </div>
           <div class="bicycles__card">
-            <img class="bicycles__image" src="" alt="">
+            <img class="bicycles__image" src="./images/bicycles-Trek-Domane-SL-7.jpg" alt="велосипед">
             <a class="bicycles__name link"
               href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">Trek
               Domane SL-7</a>
@@ -87,10 +106,12 @@
       </section>
 
       <section class="trainings" id="trainings">
-        <h2 class="trainings__title">Тренировки</h2>
-        <img src="" alt="" class="trainings__image">
-        <p class="trainings__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
-          эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+        <article class="card">
+          <h2 class="card__title">Тренировки</h2>
+          <p class="card__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
+            эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+        </article>
+        <img src="./images/road-off-road.jpg" alt="дорожный поворот" class="trainings__image">
         <ul class="trainings__list">
           <li><a class="trainings__link link" href="https://www.strava.com">Strava</a></li>
           <li><a class="trainings__link link" href="https://www.komoot.com">Komoot</a></li>
