@@ -1,0 +1,7 @@
+.quote {
+  display: grid;
+  grid-template-columns: 1fr 470px;
+  column-gap: 6.67%;
+  padding: 10% 0 5%;
+  box-sizing: border-box;
+}

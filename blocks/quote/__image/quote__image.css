@@ -1,0 +1,6 @@
+.quote__image {
+  background: url('../../../images/quote-north-road.jpg') no-repeat;
+  background-size: cover;
+  width: 650px;
+  height: 460px;
+}

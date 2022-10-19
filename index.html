@@ -55,11 +55,13 @@
       </section>
 
       <section class="quote">
-        <img class="quote__image" src="./images/quote-north-road.jpg" alt="северная дорога">
+        <div class="quote__image"></div>
         <blockquote class="quote__box">
           <p class="quote__text">&laquo;Катайся много или мало, долго или коротко, как хочешь - но катайся&raquo;</p>
-          <p class="quote__author">Эдди Меркс</p>
-          <p class="quote__author-subline">Велогонщик</p>
+          <div class="quote__author-block">
+            <p class="quote__author">Эдди Меркс</p>
+            <p class="quote__author-subline">Велогонщик</p>
+          </div>
         </blockquote>
       </section>
 
@@ -69,16 +71,13 @@
           <p class="card__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
             равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         </article>
-        <h2 class="road__title">Шоссе</h2>
-        <p class="road__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
-          равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         <div class="road__gallery">
-          <img src="./images/road-mountain-road.jpg" alt="горная дорога" class="road__image">
-          <img src="./images/road-off-road.jpg" alt="бездорожье" class="road__image">
+          <img class="road__image" src="./images/road-mountain-road.jpg" alt="горная дорога">
+          <img class="road__image" src="./images/road-off-road.jpg" alt="бездорожье">
         </div>
         <div class="road__switchers">
-          <div class="road__switcher"></div>
-          <div class="road__switcher"></div>
+          <button class="road__switcher road__switcher_direction_left"></button>
+          <button class="road__switcher road__switcher_direction_right"></button>
         </div>
       </section>
 

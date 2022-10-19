@@ -1,9 +1,14 @@
 .page {
-  margin: 0 auto;
   max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
+
   background-color: #F4F4F4;
+
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #151515;
+  font-weight: 400;
+
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  }
+}
