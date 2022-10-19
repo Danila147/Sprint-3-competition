@@ -1,7 +1,8 @@
 .intro__image {
+  background-image: url('../../../images/intro-forest-road.jpg');
   width: 610px;
   height: 836px;
   position: absolute;
-  top: 20px;
+  top: 94px;
   right: 0;
 }
