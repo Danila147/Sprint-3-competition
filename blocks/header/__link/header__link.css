@@ -1,6 +1,9 @@
 .header__link {
   text-decoration: none;
   color: inherit;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.29;
 }
 
 .header__link:hover {
