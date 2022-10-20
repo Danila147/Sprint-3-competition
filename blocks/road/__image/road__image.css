@@ -1,3 +1,4 @@
-.road__image {
+.road__images {
   width: 100%;
+  max-width: 650px;
 }

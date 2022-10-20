@@ -1,0 +1,14 @@
+.trainings__link {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.trainings__link:hover {
+  opacity: .8;
+  transition: opacity .3s ease-in-out;
+}
+
