@@ -1,0 +1,10 @@
+.footer__title {
+  max-width: 210px;
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.33;
+
+  margin: 0 0 4.167% 0;
+  padding: 0;
+}
