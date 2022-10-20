@@ -39,7 +39,20 @@
 @import url('../blocks/road/__switcher/_direction/road__switcher_direction_right.css');
 
 @import url('../blocks/bicycles/bicycles.css');
+@import url('../blocks/bicycles/__header/bicycles__header.css');
+@import url('../blocks/bicycles/__title/bicycles__title.css');
+@import url('../blocks/bicycles/__types-list/bicycles__types-list.css');
+@import url('../blocks/bicycles/__types-item/bicycles__types-item.css');
+@import url('../blocks/bicycles/__types-item/_active/bicycles__types-item_active.css');
+@import url('../blocks/bicycles/__cards/bicycles__cards.css');
+@import url('../blocks/bicycles/__card/bicycles__card.css');
+@import url('../blocks/bicycles/__image/bicycles__image.css');
+@import url('../blocks/bicycles/__link/bicycles__link.css');
 
 @import url('../blocks/trainings/trainings.css');
+@import url('../blocks/trainings/__box/trainigs__box.css');
+@import url('../blocks/trainings/__list/trainings__list.css');
+@import url('../blocks/trainings/__image/trainings__image.css');
+@import url('../blocks/trainings/__link/trainings__link.css');
 
 @import url('../blocks/footer/footer.css');

@@ -1,0 +1,8 @@
+.bicycles {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #151515;
+  margin-bottom: 60px;
+}

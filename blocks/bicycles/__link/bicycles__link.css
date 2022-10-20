@@ -1,0 +1,9 @@
+.bicycles__link {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  padding-top: 22px;
+}

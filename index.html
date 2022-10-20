@@ -82,51 +82,66 @@
       </section>
 
       <section class="bicycles" id="bicycles">
-        <h2 class="bicycles__title">Велосипеды</h2>
-        <ul class="bicycles__types-list">
-          <li class="bicycles__types-item">Шоссе</li>
-          <li class="bicycles__types-item">Грэвел</li>
-          <li class="bicycles__types-item">TT</li>
-        </ul>
+        <div class="bicycles__header">
+          <h2 class="bicycles__title">Велосипеды</h2>
+          <ul class="bicycles__types-list">
+            <li class="bicycles__types-item bicycles__types-item_active">Шоссе</li>
+            <li class="bicycles__types-item">Грэвел</li>
+            <li class="bicycles__types-item">TT</li>
+          </ul>
+        </div>
         <div class="bicycles__cards">
-          <div class="bicycles__card">
-            <img class="bicycles__image" src="./images/bicycles-Cervelo-Caledonia-5.jpg" alt="велосипед">
-            <a class="bicycles__name link"
-              href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN ">Cervelo
-              Caledonia-5</a>
-          </div>
-          <div class="bicycles__card">
-            <img class="bicycles__image" src="./images/bicycles-Cannondale-Systemsix-Himod.jpg" alt="велосипед">
-            <a class="bicycles__name link"
-              href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">Cannondale
-              Systemsix Himod</a>
-          </div>
-          <div class="bicycles__card">
-            <img class="bicycles__image" src="./images/bicycles-Trek-Domane-SL-7.jpg" alt="велосипед">
-            <a class="bicycles__name link"
-              href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">Trek
-              Domane SL-7</a>
-          </div>
+          <figure class="bicycles__card">
+            <img class="bicycles__image" src="./images/bicycles-Cervelo-Caledonia-5.png" alt="велосипед">
+            <figcaption>
+              <a class="bicycles__link"
+                href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN ">Cervelo
+                Caledonia-5</a>
+            </figcaption>
+          </figure>
+          <figure class="bicycles__card">
+            <img class="bicycles__image" src="./images/bicycles-Cannondale-Systemsix-Himod.png" alt="велосипед">
+            <figcaption>
+              <a class="bicycles__link"
+                href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">Cannondale
+                Systemsix Himod</a>
+            </figcaption>
+          </figure>
+          <figure class="bicycles__card">
+            <img class="bicycles__image" src="./images/bicycles-Trek-Domane-SL-7.png" alt="велосипед">
+            <figcaption>
+              <a class="bicycles__link"
+                href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">Trek
+                Domane SL-7</a>
+            </figcaption>
+          </figure>
         </div>
       </section>
 
       <section class="trainings" id="trainings">
-        <article class="card">
-          <h2 class="card__title">Тренировки</h2>
-          <p class="card__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
-            эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
-        </article>
-        <img src="./images/road-off-road.jpg" alt="дорожный поворот" class="trainings__image">
-        <ul class="trainings__list">
-          <li><a class="trainings__link link" href="https://www.strava.com">Strava</a></li>
-          <li><a class="trainings__link link" href="https://www.komoot.com">Komoot</a></li>
-        </ul>
+        <div class="trainigs__box">
+          <article class="card">
+            <h2 class="card__title">Тренировки</h2>
+            <p class="card__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
+              эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.
+            </p>
+          </article>
+          <ul class="trainings__list">
+            <li>
+              <a class="trainings__link" href="https://www.strava.com">Strava</a>
+            </li>
+            <li>
+              <a class="trainings__link" href="https://www.komoot.com">Komoot</a>
+            </li>
+          </ul>
+        </div>
+        <div class="trainings__image"></div>
       </section>
 
     </main>
 
     <footer class="footer">
-      <h3 class="footer__title">Подпишитесь на рассылку &mdash;</h3>
+      <p class="footer__title">Подпишитесь на рассылку &mdash;</p>
       <form>
         <!-- label ? нужно вспомнить как там формы делались в теории-->
         <input type="email" class="footer__email">
