@@ -2,4 +2,5 @@
   display: grid;
   grid-template-columns: minmax(min-content, max-content) minmax(580px, 1fr);
   column-gap: 160px;
+  margin-bottom: 120px;
 }
