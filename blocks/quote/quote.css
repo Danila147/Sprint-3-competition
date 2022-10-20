@@ -1,6 +1,6 @@
 .quote {
   display: grid;
-  grid-template-columns: 1fr 470px;
+  grid-template-columns: 650px auto;
   column-gap: 6.67%;
   padding: 10% 0 5%;
   box-sizing: border-box;
