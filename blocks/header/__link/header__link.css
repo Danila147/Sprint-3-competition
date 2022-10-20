@@ -5,8 +5,3 @@
   font-size: 0.875rem;
   line-height: 1.29;
 }
-
-.header__link:hover {
-  opacity: .8;
-  transition: opacity .3s ease-in-out;
-}
