@@ -48,7 +48,9 @@
 @import url('../blocks/bicycles/__types-item/_active/bicycles__types-item_active.css');
 @import url('../blocks/bicycles/__cards/bicycles__cards.css');
 @import url('../blocks/bicycles/__card/bicycles__card.css');
+@import url('../blocks/bicycles/__image-box/bicycles__image-box.css');
 @import url('../blocks/bicycles/__image/bicycles__image.css');
+@import url('../blocks/bicycles/__link-box/bicycles__link-box.css');
 @import url('../blocks/bicycles/__link/bicycles__link.css');
 
 @import url('../blocks/trainings/trainings.css');
@@ -63,4 +65,3 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 
 @import url('../blocks/form/__input/form__input.css');
-
