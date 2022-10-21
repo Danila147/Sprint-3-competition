@@ -1,5 +1,5 @@
 .intro {
   display: flex;
-  flex-direction: column;
   min-height: 856px;
+  justify-content: space-between;
 }

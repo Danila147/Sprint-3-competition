@@ -1,6 +1,7 @@
 .trainings {
   display: grid;
   grid-template-columns: minmax(min-content, max-content) minmax(580px, 1fr);
-  column-gap: 160px;
-  margin-bottom: 120px;
+  column-gap: 13.33%;
+  margin: 0 0 10%;
+  padding-top: 12.5%;
 }
